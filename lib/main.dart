@@ -4,6 +4,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'firebase_options.dart';
 import 'package:programmics/login.dart';
 import 'package:programmics/home_page.dart';
+import 'package:programmics/home.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -117,7 +118,7 @@ class _MyAppState extends State<MyApp>{
       debugShowCheckedModeBanner: false,
       theme: new ThemeData(
 
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.deepPurple,
         primaryColor: Colors.black,
         buttonColor: Colors.black,
         primaryIconTheme: IconThemeData(color: Colors.black),
@@ -127,7 +128,7 @@ class _MyAppState extends State<MyApp>{
 
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: HomePage(),
+      home: Home(),
     );
   }
 }

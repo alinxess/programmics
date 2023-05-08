@@ -20,7 +20,7 @@ class _LoginPageState extends State<LoginPage>{
     return SafeArea(
       child: Scaffold(
         resizeToAvoidBottomInset: false,
-        backgroundColor: Color(0xfff2f3f7),
+        backgroundColor: Colors.deepPurple,
         body: Stack(
           children: <Widget>[
             Container(
